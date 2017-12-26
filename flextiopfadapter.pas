@@ -1,3 +1,23 @@
+{
+    This unit is part of the flexlistview component.
+
+    Copyright (c) 2017 by Andrew Haines.
+
+    See the file COPYING.modifiedLGPL, included in this distribution.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+    Description:
+      This is the base adapter class which are not dependant on any gui
+      components specifically. Set TtiListAdapter.OnGetView to supply the gui
+      widget which will display the data. Or subclass it for further
+      customization.
+
+      TtiListAdapter implements IFlexListAdapter directly and descends from
+      TtiObject.
+}
 unit FlexTIOPFadapter;
 
 {$mode objfpc}{$H+}

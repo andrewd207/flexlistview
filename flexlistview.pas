@@ -1,3 +1,19 @@
+{
+    This unit is part of the flexlistview component.
+
+    Copyright (c) 2017 by Andrew Haines.
+
+    See the file COPYING.modifiedLGPL, included in this distribution.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+    Description:
+      This is the LCL Version of the FlexListView. There is very little specific
+      code to the LCL so maybe this can shared between LCL and fpGUI with an
+      ifdef.
+}
 unit FlexListView;
 { This is heavily 'inspired' by the android ListView which is awesome.}
 

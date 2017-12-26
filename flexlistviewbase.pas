@@ -1,3 +1,25 @@
+{
+    This unit is part of the flexlistview component.
+
+    Copyright (c) 2017 by Andrew Haines.
+
+    See the file COPYING.modifiedLGPL, included in this distribution.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+    Description:
+      This is the base flexlistview classes which are not dependant on any gui
+      components specifically.
+
+      FlexListView aims to simplify mapping arbitrary data into custom views
+      which can be scrolled using adapters.
+
+      If you create a new adapter type it must implement IFlexListAdapter or
+      alternatively you can descend from TFlexBaseAdapter and override the
+      needed methods.
+}
 unit FlexListViewBase;
 
 {$mode objfpc}{$H+}
