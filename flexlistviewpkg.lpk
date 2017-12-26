@@ -6,21 +6,22 @@
     <CompilerOptions>
       <Version Value="11"/>
       <SearchPaths>
-        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)/"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
     </CompilerOptions>
     <Files Count="3">
       <Item1>
         <Filename Value="flexlistview.pas"/>
+        <HasRegisterProc Value="True"/>
         <UnitName Value="FlexListView"/>
       </Item1>
       <Item2>
         <Filename Value="flextiopfadapter.pas"/>
-        <UnitName Value="flextiopfadapter"/>
+        <UnitName Value="FlexTIOPFadapter"/>
       </Item2>
       <Item3>
         <Filename Value="flexlistviewbase.pas"/>
-        <UnitName Value="flexlistviewbase"/>
+        <UnitName Value="FlexListViewBase"/>
       </Item3>
     </Files>
     <RequiredPkgs Count="3">

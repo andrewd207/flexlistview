@@ -87,6 +87,8 @@ type
     destructor  Destroy; override;
   end;
 
+procedure Register;
+
 implementation
 uses
   Forms;
@@ -513,6 +515,11 @@ begin
   FUnusedViews.FreeObjects:=True;
   FViews.Free;
   FUnusedViews.Free;
+end;
+
+procedure Register;
+begin
+  RegisterComponents('Flex', [TFlexListView]);
 end;
 
 end.

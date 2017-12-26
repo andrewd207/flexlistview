@@ -8,12 +8,13 @@ unit FlexListViewPkg;
 interface
 
 uses
-  FlexListView, FlexTIOPFadapter, FlexListViewBase, LazarusPackageIntf;
+  flexlistview, FlexTIOPFadapter, FlexListViewBase, LazarusPackageIntf;
 
 implementation
 
 procedure Register;
 begin
+  RegisterUnit('flexlistview', @flexlistview.Register);
 end;
 
 initialization
